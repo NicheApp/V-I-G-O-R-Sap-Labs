@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="colorTerraCotta">#E76F51</color>
+    <color name="colorSandy">#F4A261</color>
+    <color name="colorGreyTransparent">#80808080</color>
+    <color name="colorCharoal">#264653</color>
+    <color name="colorGrean">#2A9D8F</color>
+    <color name="colorYellow">#E9C46A</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="color80White">#80FFFFFF</color>
+
+    <color name="divider">#cacaca</color>
+    <color name="grey">#585858</color>
+<!--    colours for meditation guide-->
+    <color name="colorBeauBlue">#C6DEF1</color>
+    <color name="colorChampagnePink">#E2CFC4</color>
+    <color name="colorOrchidPink">#F2C6DE</color>
+    <color name="colorLightCyan">#C9E4DE</color>
+    <color name="colorPapayaWhip">#FAEDCB</color>
+    <color name="colorLightGrey">#D2D2CF</color>
+    <color name="colorPlatinum">#E2E2DF</color>
+
+
+</resources>

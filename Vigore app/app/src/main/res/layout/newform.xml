@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="Complete Your Details"
+        android:textColor="@android:color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+   <TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+       android:layout_marginTop="60dp"
+    android:stretchColumns="1">
+
+    <!-- Row0 -->
+    <TableRow android:id="@+id/row0"
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content">
+        <TextView android:id="@+id/nameLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="Employee id"
+            android:layout_marginLeft="5sp"/>
+        <EditText android:id="@+id/eid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:layout_marginRight="5sp"
+            android:imeOptions="actionDone"/>
+    </TableRow>
+    <TableRow android:id="@+id/row1"
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content">
+        <TextView android:id="@+id/addrLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:paddingTop="5dp"
+            android:layout_marginLeft="5sp"
+            android:text="Joining Date "/>
+        <EditText android:id="@+id/jd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:paddingTop="5dp"
+            android:layout_marginRight="5sp"
+            android:imeOptions="actionDone"/>
+    </TableRow>
+    <TableRow android:id="@+id/row2"
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content">
+        <TextView android:id="@+id/emailLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:paddingTop="5dp"
+            android:layout_marginLeft="5sp"
+            android:text="Gender"/>
+        <RadioGroup
+            android:id="@+id/radioGrp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="5dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            >
+            <RadioButton
+                android:id="@+id/radioM"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:checked="true"
+
+                android:layout_weight="1"
+                android:textSize="14dp"
+                android:text="Male"
+                />
+            <RadioButton
+                android:id="@+id/radioF"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:checked="false"
+                android:layout_weight="1"
+                android:textSize="14dp"
+                android:text="Female"
+                />
+        </RadioGroup>
+    </TableRow>
+    <TableRow android:id="@+id/row3"
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content">
+        <TextView android:id="@+id/foneLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:paddingTop="5dp"
+            android:layout_marginLeft="5sp"
+            android:text="Company type"/>
+        <Spinner android:id="@+id/sp1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:layout_marginRight="5sp"
+            android:imeOptions="actionDone"/>
+    </TableRow>
+       <TableRow android:id="@+id/row6"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="30dp">
+           <TextView android:id="@+id/wfh"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textColor="#000000"
+               android:layout_marginTop="5dp"
+               android:layout_marginLeft="5sp"
+               android:text="WFH Setup Available"/>
+           <RadioGroup
+               android:id="@+id/radioGrp2"
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+
+               android:paddingLeft="8dp"
+               android:paddingRight="8dp"
+               >
+               <RadioButton
+                   android:id="@+id/yes"
+                   android:layout_width="0dp"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="left"
+                   android:checked="true"
+
+                   android:layout_weight="1"
+                   android:textSize="14dp"
+                   android:text="Yes"
+                   />
+               <RadioButton
+                   android:id="@+id/no"
+                   android:layout_width="0dp"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="right"
+                   android:checked="false"
+                   android:layout_weight="1"
+                   android:textSize="14dp"
+                   android:text="No"
+                   />
+           </RadioGroup>
+       </TableRow>
+       <TableRow android:id="@+id/row9"
+           android:layout_width="match_parent"
+           android:layout_marginTop="30dp"
+           android:layout_height="wrap_content">
+           <TextView android:id="@+id/resource"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textColor="#000000"
+
+               android:layout_marginLeft="5sp"
+               android:text="Resource allocation"/>
+           <Spinner android:id="@+id/rsc"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+
+               android:layout_marginRight="5sp"
+               android:imeOptions="actionDone"/>
+       </TableRow>
+       <TableRow android:id="@+id/mental"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="30dp">
+           <TextView android:id="@+id/mftscore"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textColor="#000000"
+               android:paddingTop="5dp"
+               android:layout_marginLeft="5sp"
+               android:text="Mental fatigue Score "/>
+           <EditText android:id="@+id/mft"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:inputType="text"
+               android:paddingTop="5dp"
+               android:layout_marginRight="5sp"
+               android:imeOptions="actionDone"/>
+       </TableRow>
+
+    <TableRow android:id="@+id/row5"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="0dp"
+
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:text="Submit"
+            android:textAllCaps="false"
+            android:textColor="#FFF"
+            android:textSize="16sp"
+            style="@style/Widget.AppCompat.Button.Colored"
+            />
+
+    </TableRow>
+</TableLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

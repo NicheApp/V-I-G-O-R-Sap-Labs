@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.Hatchback.Vigor">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/vigoricon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/vigoricon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".FormActivity"></activity>
+        <activity android:name=".AvatarSelect.AvatarSelectActivity" />
+        <activity android:name=".About.AboutActivity" />
+        <activity android:name=".EditProfile.EditPasswordActivity" />
+        <activity android:name=".EditProfile.EditNameActivity" />
+        <activity android:name=".EditProfile.EditProfileActivity" />
+
+        <activity android:name=".Article.Article" />
+        <activity android:name=".ArticleHome.ArticleHome" />
+        <activity android:name=".Notification.Notification" />
+        <activity android:name=".Username.UsernameActivity" />
+        <activity android:name=".Register.RegisterActivity" />
+        <activity android:name=".Login.LoginActivity" />
+        <activity android:name=".OnboardingScreen.OnBoardingScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Meditation.MeditationActivity" />
+        <activity android:name=".MainActivity">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".QuestionActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".AnswersActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <receiver android:name=".Notification.Receiver" />
+    </application>
+
+</manifest>

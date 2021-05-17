@@ -1,0 +1,157 @@
+{
+  "data": {
+    "questions": [
+      {
+        "id": 18,
+        "question_type_id": 2,
+        "question_type_name": "Radio",
+        "question_name": "How many people you talk in your team ?",
+        "question_item": [
+          {
+            "answer_id": "11",
+            "name": "1"
+          },
+          {
+            "answer_id": "12",
+            "name": "2"
+          },
+          {
+            "answer_id": "13",
+            "name": "3"
+          },
+          {
+            "answer_id": "14",
+            "name": "4"
+          },
+          {
+            "answer_id": "15",
+            "name": "5"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "question_type_id": 2,
+        "question_type_name": "Radio",
+        "question_name": "Team mates behaviour  ?",
+        "question_item": [
+          {
+            "answer_id": "21",
+            "name": "Good"
+          },
+          {
+            "answer_id": "22",
+            "name": "Bad"
+          },
+          {
+            "answer_id": "23",
+            "name": "Worst"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "question_type_id": 2,
+        "question_type_name": "Radio",
+        "question_name": "Are You comfortable with the current tech stack ?",
+        "question_item": [
+          {
+            "answer_id": "31",
+            "name": "Yes"
+          },
+          {
+            "answer_id": "32",
+            "name": "No"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "question_type_id": 2,
+        "question_type_name": "Radio",
+        "question_name": "Are you happy with your current role ?",
+        "question_item": [
+          {
+            "answer_id": "41",
+            "name": "Yes"
+          },
+          {
+            "answer_id": "42",
+            "name": "No"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "question_type_id": 2,
+        "question_type_name": "Radio",
+        "question_name": "Whether the time management of the task given in the team is good ?",
+        "question_item": [
+          {
+            "answer_id": "51",
+            "name": "Yes"
+          },
+          {
+            "answer_id": "52",
+            "name": "No"
+          }
+        ]
+      },
+      {
+        "id": 19,
+        "question_type_id": 2,
+        "question_type_name": "Radio",
+        "question_name": "Are you getting ur salary on time?",
+        "question_item": [
+          {
+            "answer_id": "61",
+            "name": "Yes"
+          },
+          {
+            "answer_id": "62",
+            "name": "No"
+          },
+          {
+            "answer_id": "63",
+            "name": "Sometime"
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "question_type_id": 2,
+        "question_type_name": "Radio",
+        "question_name": "Are you satisfied with your current salary?",
+        "question_item": [
+          {
+            "answer_id": "100",
+            "name": "Yes"
+          },
+          {
+            "answer_id": "101",
+            "name": "No"
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "question_type_id": 2,
+        "question_type_name": "Radio",
+        "question_name": "Are you comfortable with working hours & working days?",
+        "question_item": [
+          {
+            "answer_id": "102",
+            "name": "Yes"
+          },
+          {
+            "answer_id": "103",
+            "name": "No"
+          }
+        ]
+      }
+
+    ]
+  },
+  "status": true,
+  "message": "The data was fetched successfully"
+}
