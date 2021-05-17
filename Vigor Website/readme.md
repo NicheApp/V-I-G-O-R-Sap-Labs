@@ -1,4 +1,4 @@
-# Features in the Website[For only Hr of Company]:- 
+# Features in the VIGOR Website[For only Hr of Company]:- 
 
 #### 1. We have included a Burnout Predictor, that gives the HR to find the burnout rate of particular employee which is calculated according to the details  of an employee which          includes Experience, Gender, Mental Fatigue Score. 
 #### 2. We have trained the model using the open-source data that was available on Github.
